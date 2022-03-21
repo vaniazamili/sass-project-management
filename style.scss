@@ -1,0 +1,63 @@
+$background-utama: rgba($color: #96a8ff, $alpha: 1.0);
+body{
+    background-color: $background-utama;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    a{
+    text-decoration: none;
+    }
+    button{
+        cursor: pointer;
+        border-radius: 8px;
+        font-size: 18px;
+        background-color: rgba($color: #ffc296, $alpha: 1.0);   
+    }
+    li{
+        display: inline;
+        padding: 14px 16px;
+    }
+}
+div{
+    button{
+        cursor: pointer;
+        border-radius: 8px;
+        font-size: 18px;
+        background-color: rgba($color: #ffc296, $alpha: 1.0);
+    }
+}
+.card{
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.font{
+    h2{
+        text-align: center;
+    }
+}
+.container{
+        text-align: center;
+        padding: 10px 20px;
+}
+
+div{
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        max-width: 100%;
+        height: auto;
+        @extend .card;
+    }
+    h3{
+        @extend .container
+    }
+    p{
+        @extend .container
+    }
+
+}
